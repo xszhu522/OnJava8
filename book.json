@@ -24,7 +24,7 @@
   ],
   "pluginsConfig": {
 	"edit-link": {
-                "base": "https://github.com/lingcoder/OnJava8/edit/master",
+                "base": "https://github.com/xszhu522/OnJava8/edit/master",
                 "label": "Edit This Page"
             }
   }
