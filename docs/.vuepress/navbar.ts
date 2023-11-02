@@ -27,4 +27,9 @@ export default navbar([
     icon: "book",
     link: "https://theme-hope.vuejs.press/zh/",
   },
+  {
+    text: "OnJava8",
+    icon: "book",
+    link: "/book/",
+  },
 ]);

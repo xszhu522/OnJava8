@@ -1,3 +1,7 @@
+---
+title: 封面
+---
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/xszhu522/OnJava8/master/docs/images/cover.jpg" alt="cover" width="100%"/>
 </div>
