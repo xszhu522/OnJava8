@@ -647,7 +647,7 @@ public class ArrayOfGenerics {
 }
 ```
 
-一旦你有了对 **List<String>[]** 的引用 , 你会发现多了一些编译时检查。问题是数组是协变的，所以 **List<String>[]** 也是一个 **Object[]**  ，你可以用这来将 **ArrayList<Integer> ** 分配进你的数组，在编译或者运行时都不会出错。
+一旦你有了对 **`List<String>[]`** 的引用 , 你会发现多了一些编译时检查。问题是数组是协变的，所以 **`List<String>[]`** 也是一个 **Object[]**  ，你可以用这来将 **`ArrayList<Integer>` ** 分配进你的数组，在编译或者运行时都不会出错。
 
 如果你知道你不会进行向上类型转换，你的需求相对简单，那么可以创建一个泛型数组，它将提供基本的编译时类型检查。然而，一个泛型 **Collection** 实际上是一个比泛型数组更好的选择。
 
@@ -746,7 +746,7 @@ a9: [Hello, Hello, Hello, World, World, Hello]
 * **void setAll(int[] a, IntUnaryOperator gen)**
 * **void setAll(long[] a, IntToLongFunction gen)**
 * **void setAll(double[] a, IntToDoubleFunctiongen)**
-* **<T> void setAll(T[] a, IntFunction<? extendsT> gen)**
+* **`<T> void setAll(T[] a, IntFunction<? extendsT> gen)`**
 
 除了 **int** , **long** , **double** 有特殊的版本，其他的一切都由泛型版本处理。生成器不是 **Supplier** 因为它们不带参数，并且必须将 **int** 数组索引作为参数。
 
