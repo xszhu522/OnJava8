@@ -33,6 +33,8 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  fullscreen: true,
+
   plugins: {
     // You should generate and use your own comment service
     comment: {
@@ -74,7 +76,7 @@ export default hopeTheme({
       // katex: true,
 
       // install mathjax-full before enabling it
-      // mathjax: true,
+      mathjax: true,
 
       mark: true,
 
