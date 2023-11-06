@@ -1,5 +1,7 @@
 import { defineClientConfig } from "@vuepress/client";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
+import "vuepress-theme-hope/presets/bounce-icon.scss";
+import "vuepress-theme-hope/presets/shinning-feature-panel.scss";
 
 export default defineClientConfig({
     setup() {
