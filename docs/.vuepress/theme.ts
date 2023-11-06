@@ -24,6 +24,8 @@ export default hopeTheme({
 
   repo: "xszhu522/OnJava8",
 
+  docsBranch: "vuepress-theme-hope",
+
   docsDir: "docs",
 
   // navbar
