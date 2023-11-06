@@ -12,7 +12,13 @@ export default hopeTheme({
     url: "https://xszhu522.github.io",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: [
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js",
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/js/solid.min.js",
+    "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/js/brands.min.js",
+  ],
+
+  iconPrefix:"fa-",
 
   logo: "/LogoMark.png",
 

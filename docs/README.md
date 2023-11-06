@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: home fas
 title: 项目主页
 heroImage: /LogoMark.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
@@ -21,19 +21,19 @@ highlights:
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: Github 目录阅读 进入
-        icon: newspaper
+        icon: newspaper fas
         link: https://github.com/xszhu522/OnJava8/blob/master/SUMMARY.md
         
       - title: GitHub Pages 完整阅读 进入
-        icon: fab fa-github
+        icon: github fab
         link: https://xszhu522.github.io/OnJava8/
         
       - title: Gitee Pages 完整阅读 进入
-        icon: code-branch
+        icon: code-branch fas
         link: https://xszhu522.gitee.io/onjava8/
         
       - title: Gitbook 完整阅读 进入
-        icon: book
+        icon: book fas
         link: https://xszhu522.gitbook.io/onjava8/
 
   - header: 原书资料
@@ -42,16 +42,16 @@ highlights:
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
     highlights:
       - title: 作者：Bruce Eckel
-        icon: at
+        icon: at fas
 
       - title: ISBN：9780981872520
-        icon: hashtag
+        icon: hashtag fas
 
       - title: 页数：2038
-        icon: book-open
+        icon: book-open fas
 
       - title: 发行：仅电子版
-        icon: box-archive
+        icon: box-archive fas
 
 copyright: false
 footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
