@@ -5,6 +5,8 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://xszhu522.github.io",
 
+  favicon: "/favicon.ico",
+
   author: {
     name: "xszhu522",
     url: "https://xszhu522.github.io",
